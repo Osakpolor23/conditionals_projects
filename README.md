@@ -3,7 +3,7 @@ This repository contains a series of Python programs that utilize conditionals t
 
 ## Problem Sets
 ### **1. Extensions.py** 
-**Objective:** Determines the media type (MIME type) of a file based on its extension.
+**Objective:** Determine the media type (MIME type) of a file based on its extension.
 
 **Key Concepts:**
 
@@ -29,7 +29,7 @@ This repository contains a series of Python programs that utilize conditionals t
 ***Input: hey → Output: $20***
 
 ### **3. Meal.py**
-**Objective:** Determines meal times based on the time of day.
+**Objective:** Determine meal times based on the time of day.
 
 **Key Concepts:**
 
@@ -42,7 +42,7 @@ This repository contains a series of Python programs that utilize conditionals t
 ***Input: 12:30 → Output: Lunch Time***
 
 ### **4. Interpreter.py**
-**Objective:** Implements a basic arithmetic interpreter that evaluates simple expressions.
+**Objective:** Implement a basic arithmetic interpreter that evaluates simple expressions.
 
 **Key Concepts:**
 
@@ -55,7 +55,7 @@ This repository contains a series of Python programs that utilize conditionals t
 ***Input: 4 + 5 → Output: 9***
 
 ### **5. Deep.py**
-**Objective:** Responds to philosophical questions about life, the universe, and everything.
+**Objective:** Respond to philosophical questions about life, the universe, and everything.
 
 **Key Concepts:**
 
