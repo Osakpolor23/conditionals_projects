@@ -1,7 +1,7 @@
 # Exploring Conditionals in Python: A Collection of solved Problem Sets
 This repository contains a series of Python programs that utilize conditionals to solve a variety of problems. Each program demonstrates the effective use of **if**, **elif**, **else**, and other conditional logics such as **match-case** to tackle specific challenges.
 
-## Problem Sets
+## Project Overview
 ### **1. Extensions.py** 
 **Description:** This program determines the media type (MIME type) of a file based on its extension. It takes a file name as input, extracts the extension using string manipulation, and matches it against a predefined list of supported media types. If the extension is unsupported, the program defaults to returning application/octet-stream.
 
@@ -12,9 +12,11 @@ This repository contains a series of Python programs that utilize conditionals t
     Conditional checks for supported extensions and fallback to default types.
 
 **Sample Input:**
+
     cat.gif
 
 **Expected Output:**
+
     image/gif
 
 ### **2. Bank.py** 
@@ -27,9 +29,11 @@ This repository contains a series of Python programs that utilize conditionals t
     Handling inputs case-insensitively and ignoring leading/trailing spaces.
 
 **Sample Input:**
- hey 
+
+     hey 
 
 **Expected Output:**
+
     $20
 
 ### **3. Meal.py**
@@ -42,9 +46,11 @@ This repository contains a series of Python programs that utilize conditionals t
     Applying conditional logic to categorize times into breakfast, lunch, or dinner periods.
 
 **Sample Input:**
+
     12:30
 
 **Expected Output:**
+
     Lunch Time
 
 ### **4. Interpreter.py**
@@ -57,9 +63,11 @@ This repository contains a series of Python programs that utilize conditionals t
     Applying conditional checks to execute the appropriate arithmetic operation.
 
 **Sample Input:**
+
     4 + 5 
 
 **Expected Output:
+
     9.0
 
 ### **5. Deep.py**
@@ -72,9 +80,11 @@ This repository contains a series of Python programs that utilize conditionals t
     Matching specific valid responses using match-case or multiple conditional checks.
 
 **Sample Input:**
+
     forty-two 
 
 **Expected Output:**
+
     Yes
 
 Feel free to fork or clone this repository and contribute to these problem sets by adding more scenarios or enhancing the existing ones.
