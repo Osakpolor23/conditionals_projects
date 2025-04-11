@@ -3,7 +3,7 @@ This repository contains a series of Python programs that utilize conditionals t
 
 ## Problem Sets
 ### **1. Extensions.py** 
-**Objective:** Determine the media type (MIME type) of a file based on its extension.
+**Description:** This program determines the media type (MIME type) of a file based on its extension. It takes a file name as input, extracts the extension using string manipulation, and matches it against a predefined list of supported media types. If the extension is unsupported, the program defaults to returning application/octet-stream.
 
 **Key Concepts:**
 
@@ -11,12 +11,14 @@ This repository contains a series of Python programs that utilize conditionals t
 
     Conditional checks for supported extensions and fallback to default types.
 
-**Example Output:**
+**Sample Input:**
+    cat.gif
 
-***Input: cat.gif → Output: image/gif***
+**Expected Output:**
+    image/gif
 
 ### **2. Bank.py** 
-**Objective:** Simulates a scenario where a bank rewards customers based on specific greetings.
+**Description:** A fun simulation program where the bank rewards customers based on specific greetings. The program evaluates the user's greeting (case-insensitively) and assigns a monetary reward depending on its content. Polite and kind greetings are rewarded the most, while other inputs yield smaller rewards.
 
 **Key Concepts:**
 
@@ -24,12 +26,14 @@ This repository contains a series of Python programs that utilize conditionals t
 
     Handling inputs case-insensitively and ignoring leading/trailing spaces.
 
-**Example Output:**
+**Sample Input:**
+ hey 
 
-***Input: hey → Output: $20***
+**Expected Output:**
+    $20
 
 ### **3. Meal.py**
-**Objective:** Determine meal times based on the time of day.
+**Description:** This program determines which meal (breakfast, lunch, or dinner) corresponds to a given time. Users input a time in a 24 hour format, which is parsed and checked against predefined meal periods.
 
 **Key Concepts:**
 
@@ -37,12 +41,14 @@ This repository contains a series of Python programs that utilize conditionals t
 
     Applying conditional logic to categorize times into breakfast, lunch, or dinner periods.
 
-**Example Output:**
+**Sample Input:**
+    12:30
 
-***Input: 12:30 → Output: Lunch Time***
+**Expected Output:**
+    Lunch Time
 
 ### **4. Interpreter.py**
-**Objective:** Implement a basic arithmetic interpreter that evaluates simple expressions.
+**Description:** A simple arithmetic interpreter that evaluates basic mathematical expressions involving addition, subtraction, multiplication or division. The program splits the input string into operands and operators and performs the corresponding computation with the result returned as a float.
 
 **Key Concepts:**
 
@@ -50,12 +56,14 @@ This repository contains a series of Python programs that utilize conditionals t
 
     Applying conditional checks to execute the appropriate arithmetic operation.
 
-**Example Output:**
+**Sample Input:**
+    4 + 5 
 
-***Input: 4 + 5 → Output: 9***
+**Expected Output:
+    9.0
 
 ### **5. Deep.py**
-**Objective:** Respond to philosophical questions about life, the universe, and everything.
+**Description:** This program is a playful take on answering a philosophical question about life, the universe, and everything. It checks if the user input matches specific phrases (case-insensitively) and returns an appropriate response.
 
 **Key Concepts:**
 
@@ -63,8 +71,10 @@ This repository contains a series of Python programs that utilize conditionals t
 
     Matching specific valid responses using match-case or multiple conditional checks.
 
-**Example Output:**
+**Sample Input:**
+    forty-two 
 
-***Input: forty-two → Output: Yes***
+**Expected Output:**
+    Yes
 
 Feel free to fork or clone this repository and contribute to these problem sets by adding more scenarios or enhancing the existing ones.
